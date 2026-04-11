@@ -19,7 +19,8 @@ source install/setup.bash
 source install/setup.bash
 ros2 launch vacuum_bot sim.launch.py
 
-# This command runs the Python node that processes LiDAR data to avoid obstacles (obstacles is defined in sdf file which automatically opens when executed sim.launch.py):
+# This command runs the Python node that processes LiDAR data to avoid obstacles (obstacles is defined in sdf file whichautomatically
+ opens when executed sim.launch.py):
 source install/setup.bash
 ros2 run vacuum_bot vacuum_logic.py
 ```
